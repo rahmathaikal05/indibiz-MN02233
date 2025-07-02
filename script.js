@@ -1,47 +1,61 @@
 const data = [
-  // BISNIS BASIC 1P
-  { category: 'basic', nama: 'BISNIS BASIC 1P', kecepatan: 50, perbulan: 429570, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 1P', kecepatan: 75, perbulan: 496170, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 1P', kecepatan: 100, perbulan: 618270, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 1P', kecepatan: 150, perbulan: 773670, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 1P', kecepatan: 200, perbulan: 973470, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 1P', kecepatan: 300, perbulan: 1395270, pemasangan: 166500 },
-
-  // BISNIS BASIC 2P
-  { category: 'basic', nama: 'BISNIS BASIC 2P', kecepatan: 50, perbulan: 473970, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 2P', kecepatan: 75, perbulan: 540570, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 2P', kecepatan: 100, perbulan: 662670, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 2P', kecepatan: 150, perbulan: 818070, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 2P', kecepatan: 200, perbulan: 1017870, pemasangan: 166500 },
-
-  // BISNIS BASIC 3P
-  { category: 'basic', nama: 'BISNIS BASIC 3P', kecepatan: 50, perbulan: 679320, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 3P', kecepatan: 75, perbulan: 745920, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 3P', kecepatan: 100, perbulan: 868020, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 3P', kecepatan: 150, perbulan: 1023420, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 3P', kecepatan: 200, perbulan: 1223220, pemasangan: 166500 },
-  { category: 'basic', nama: 'BISNIS BASIC 3P', kecepatan: 300, perbulan: 1645020, pemasangan: 166500 },
+  // HSI BISNIS BASIC 1P INTERNET
+  { category: 'basic', nama: 'HSI BISNIS BASIC 1P INTERNET', kecepatan: 50, harga: 387000, pasang: 166500 },
+  { category: 'basic', nama: 'HSI BISNIS BASIC 1P INTERNET', kecepatan: 75, harga: 447000, pasang: 166500 },
+  { category: 'basic', nama: 'HSI BISNIS BASIC 1P INTERNET', kecepatan: 100, harga: 557000, pasang: 166500 },
+  { category: 'basic', nama: 'HSI BISNIS BASIC 1P INTERNET', kecepatan: 150, harga: 697000, pasang: 166500 },
+  { category: 'basic', nama: 'HSI BISNIS BASIC 1P INTERNET', kecepatan: 200, harga: 877000, pasang: 166500 },
+  { category: 'basic', nama: 'HSI BISNIS BASIC 1P INTERNET', kecepatan: 300, harga: 1257000, pasang: 166500 },
 
   // B2B
-  { category: 'b2b', nama: 'HSI B2B', kecepatan: 50, perbulan: 487290, pemasangan: 166500 },
-  { category: 'b2b', nama: 'HSI B2B', kecepatan: 75, perbulan: 576090, pemasangan: 166500 },
-  { category: 'b2b', nama: 'HSI B2B', kecepatan: 100, perbulan: 742590, pemasangan: 166500 },
-  { category: 'b2b', nama: 'HSI B2B', kecepatan: 150, perbulan: 909090, pemasangan: 166500 },
-  { category: 'b2b', nama: 'HSI B2B', kecepatan: 200, perbulan: 1164390, pemasangan: 166500 },
-  { category: 'b2b', nama: 'HSI B2B', kecepatan: 300, perbulan: 1663890, pemasangan: 166500 },
+  { category: 'b2b', nama: 'HSI B2B (1:1)', kecepatan: 50, harga: 439000, pasang: 166500 },
+  { category: 'b2b', nama: 'HSI B2B (1:1)', kecepatan: 75, harga: 519000, pasang: 166500 },
+  { category: 'b2b', nama: 'HSI B2B (1:1)', kecepatan: 100, harga: 669000, pasang: 166500 },
+  { category: 'b2b', nama: 'HSI B2B (1:1)', kecepatan: 150, harga: 819000, pasang: 166500 },
+  { category: 'b2b', nama: 'HSI B2B (1:1)', kecepatan: 200, harga: 1049000, pasang: 166500 },
+  { category: 'b2b', nama: 'HSI B2B (1:1)', kecepatan: 300, harga: 1499000, pasang: 166500 },
+
+  // BISNIS BASIC 2P (INTERNET + TELEPON)
+  { category: 'basic', nama: 'BISNIS BASIC 2P (INTERNET + TELEPON)', kecepatan: 50, harga: 427000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 2P (INTERNET + TELEPON)', kecepatan: 75, harga: 487000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 2P (INTERNET + TELEPON)', kecepatan: 100, harga: 597000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 2P (INTERNET + TELEPON)', kecepatan: 150, harga: 737000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 2P (INTERNET + TELEPON)', kecepatan: 200, harga: 917000, pasang: 166500 },
+
+  // BISNIS BASIC 2P (INTERNET + TV)
+  { category: 'basic', nama: 'BISNIS BASIC 2P (INTERNET + TV)', kecepatan: 50, harga: 587000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 2P (INTERNET + TV)', kecepatan: 75, harga: 647000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 2P (INTERNET + TV)', kecepatan: 100, harga: 757000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 2P (INTERNET + TV)', kecepatan: 150, harga: 897000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 2P (INTERNET + TV)', kecepatan: 200, harga: 1077000, pasang: 166500 },
+
+  // BISNIS BASIC 3P (INTERNET + TELEPON + TV)
+  { category: 'basic', nama: 'BISNIS BASIC 3P (INTERNET + TELEPON + TV)', kecepatan: 50, harga: 612000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 3P (INTERNET + TELEPON + TV)', kecepatan: 75, harga: 672000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 3P (INTERNET + TELEPON + TV)', kecepatan: 100, harga: 782000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 3P (INTERNET + TELEPON + TV)', kecepatan: 150, harga: 922000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 3P (INTERNET + TELEPON + TV)', kecepatan: 200, harga: 1102000, pasang: 166500 },
+  { category: 'basic', nama: 'BISNIS BASIC 3P (INTERNET + TELEPON + TV)', kecepatan: 300, harga: 1482000, pasang: 166500 },
 ];
 
 let currentCategory = 'basic';
 
+document.getElementById('speedFilter').addEventListener('change', renderCards);
+
+function filterCategory(cat) {
+  currentCategory = cat;
+  renderCards();
+}
+
 function renderCards() {
   const container = document.getElementById('productContainer');
-  const speed = document.getElementById('speedFilter').value;
+  const selectedSpeed = document.getElementById('speedFilter').value;
   container.innerHTML = '';
 
-  const filtered = data.filter(item => {
-    return (item.category === currentCategory) && 
-           (speed === 'all' || item.kecepatan == speed);
-  });
+  const filtered = data.filter(item =>
+    item.category === currentCategory &&
+    (selectedSpeed === 'all' || item.kecepatan == selectedSpeed)
+  );
 
   filtered.forEach(item => {
     const card = document.createElement('div');
@@ -49,20 +63,11 @@ function renderCards() {
     card.innerHTML = `
       <h3>${item.nama}</h3>
       <p><strong>Kecepatan:</strong> ${item.kecepatan} Mbps</p>
-      <p><strong>Harga Perbulan:</strong> Rp ${item.perbulan.toLocaleString('id-ID')}</p>
-      <p><strong>Harga Pemasangan:</strong> Rp ${item.pemasangan.toLocaleString('id-ID')}</p>
+      <p><strong>Harga Paket:</strong> Rp ${item.harga.toLocaleString('id-ID')}</p>
+      <p><strong>Harga Pemasangan:</strong> Rp ${item.pasang.toLocaleString('id-ID')}</p>
     `;
     container.appendChild(card);
   });
 }
 
-function filterCategory(cat) {
-  currentCategory = cat;
-  renderCards();
-}
-
-document.getElementById('speedFilter').addEventListener('change', renderCards);
-
-// Init
 renderCards();
-
